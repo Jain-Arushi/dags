@@ -67,7 +67,7 @@ dag = DAG(
         }
     ),
     render_template_as_native_obj=True,
-    access_control={"user-arushi-jain": {"DAGs": {"can_read", "can_edit", "can_delete"}}},
+    access_control={"role_user-arushi-jain": {"DAGs": {"can_read", "can_edit", "can_delete"}}},
 )
 
 

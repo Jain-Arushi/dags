@@ -27,7 +27,7 @@ default_args = {
 }
 
 dag = DAG(
-    "presto_query_dag_native",
+    "presto_query_native_restrict_user.py",
     default_args=default_args,
     schedule=None,
     tags=["example", "aie", "presto", "query"],
